@@ -13,7 +13,9 @@ public class App
 {
     public static void main( String[] args ) throws Exception 
     {
-    	String file = args[0].replace("\\", "/");
+    	Scanner s = new Scanner(System.in);
+    	System.out.println("enter full file path");
+    	String file = s.next();
     	IbmData ibm = new IbmData();
     	JsonServices json = new JsonServices();
     	ExcelOps e = new ExcelOps(file,ibm,json);
