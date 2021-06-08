@@ -11,8 +11,8 @@ import com.ibm.watson.language_translator.v3.model.TranslationResult;
 
 public class IbmData {
 	
-	private static final String apikey="sYbtA1NFhgVHaKiY3_30s511yc10ij9juVa959xRnjbM";
-	private static final String url="https://api.eu-gb.language-translator.watson.cloud.ibm.com/instances/361e91e5-6ed1-4a2b-874e-e7870783dcb8";
+	private static final String apikey="sYbtA1NFhgVHaKiY3_30s85611yc10ij9jusajVa959xRnjbM";
+	private static final String url="https://api.eu-gb.language-translator.watson.cloud.ibm.com/instances/361e91e5-6ed1-4a2b-874e-e78745480783dcb8";
 	private static final String version = "2018-05-01";
 	
 	
