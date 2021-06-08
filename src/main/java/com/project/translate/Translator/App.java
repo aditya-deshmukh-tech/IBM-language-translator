@@ -16,6 +16,7 @@ public class App
     	Scanner s = new Scanner(System.in);
     	System.out.println("enter full file path");
     	String file = s.next();
+	file = file.replace("\\", "/");
     	IbmData ibm = new IbmData();
     	JsonServices json = new JsonServices();
     	ExcelOps e = new ExcelOps(file,ibm,json);
